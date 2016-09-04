@@ -8,12 +8,12 @@ body {
 h1 {
     font-size:1.2em;
     margin:0 0 0 20px ;
-    background-color: #FEE
+    background-color: #FEE;
 }
 h2 {
     font-size:1.1em;
-    margin:10px 0 10px 20px  ;
-    background-color: #FEE
+    margin:10px 0 10px 20px;
+    background-color: #FEE;
 }
 
 
@@ -23,7 +23,6 @@ h2 {
 }
 .container .totop {
     font-size:0.8em;
-    margin:0;
 }
 
 /* ポートフォリオ用 */
@@ -38,12 +37,21 @@ h2 {
     margin-left:20px;
     background-color: #FEE
 }
-.face {
+.portfolio div {
+  margin:0;
+}
+.portfolio .face {
   max-width: 120px;
   border: 3px solid #FFF;
   border-radius: 100%;
+  display: inline-block;
+  vertical-align: middle;
 }
-.sample{
+.portfolio .pf_text{
+  display: inline-block;
+  vertical-align: middle;
+}
+.portfolio .sample{
   max-width: 150px;
   border: 3px solid #B99;
   border-radius: 10%;
