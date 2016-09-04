@@ -7,6 +7,21 @@ body {
 
 h1 {
     font-size:2em;
+    margin:0 20px;
+}
+
+/* プロフィール */
+#face{
+    font-size:20px;
+}
+#face img {
+  max-width: 120px;
+  border: 3px solid #FEE;
+  border-radius: 100%;
+}
+
+.container {
+    margin:10px 0 0 0;
 }
 
 /* bootstrap調整 */
@@ -15,7 +30,10 @@ h1 {
 background-color: #DAA;
 border-color: #3e6962;
 }
-.navbar a{
+.navbar .navbar-default a{
     color:#000;
 }
-
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #C99;
+}
