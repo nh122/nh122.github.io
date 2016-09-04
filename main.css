@@ -1,22 +1,39 @@
 body {
   font-family: YuGothic, "游ゴシック", sans-serif;
   background-color: #DCC;
-  font-size: 12px;
+  font-size: 20px;
   padding:0 20px;
 }
 
 h1 {
-    font-size:2em;
-    margin:0 20px;
+    font-size:1.2em;
+    margin:0 0 0 20px ;
+    background-color: #FEE
+}
+h2 {
+    font-size:1.0em;
+    margin:10px 0 10px 20px  ;
+    background-color: #FEE
 }
 
-/* プロフィール */
-#face{
-    font-size:20px;
+.container div{
+    margin-bottom:1.5em;
+    padding:5px;
 }
-#face img {
+.container .totop {
+    font-size:0.8em;
+    margin-bottom:0;
+}
+
+/* ポートフォリオ用 */
+.portfolio{
+    font-size:20px;
+    margin-left:20px;
+    background-color: #FEE
+}
+.face {
   max-width: 120px;
-  border: 3px solid #FEE;
+  border: 3px solid #FFF;
   border-radius: 100%;
 }
 
@@ -30,10 +47,18 @@ h1 {
 background-color: #DAA;
 border-color: #3e6962;
 }
-.navbar .navbar-default a{
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a
+{
     color:#000;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: #C99;
+}
+.navbar-default .navbar-toggle{
+    border-color:#600;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color:#000;
 }
