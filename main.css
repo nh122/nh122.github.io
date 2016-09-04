@@ -1,9 +1,21 @@
 body {
   font-family: YuGothic, "游ゴシック", sans-serif;
-  background-color: #CCC;
+  background-color: #DCC;
   font-size: 12px;
+  padding:0 20px;
 }
 
 h1 {
     font-size:2em;
 }
+
+/* bootstrap調整 */
+/* navbar */
+.navbar {
+background-color: #DAA;
+border-color: #3e6962;
+}
+.navbar a{
+    color:#000;
+}
+
